@@ -1,0 +1,15 @@
+"D:\Softwares\arm\bin\armproc.dll" 
+
+"D:\Softwares\arm\bin\armlmiftdi.dll" 
+
+"D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Exe\blinky.out" 
+
+--plugin="D:\Softwares\arm\bin\armbat.dll" 
+
+--device_macro="D:\Softwares\arm\config\debugger\TexasInstruments\TM4C129.dmac" 
+
+--flash_loader="D:\Softwares\arm\config\flashloader\TexasInstruments\FlashTC4_NC.board" 
+
+
+
+

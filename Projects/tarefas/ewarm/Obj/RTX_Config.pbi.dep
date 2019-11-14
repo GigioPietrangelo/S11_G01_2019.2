@@ -1,0 +1,12 @@
+RTX_Config.pbi: \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\tarefas\src\RTX_Config.c \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_compiler.h \
+  D:\Softwares\arm\inc\c\stdint.h D:\Softwares\arm\inc\c\ycheck.h \
+  D:\Softwares\arm\inc\c\yvals.h D:\Softwares\arm\inc\c\DLib_Defaults.h \
+  D:\\Softwares\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\Softwares\arm\inc\c\DLib_Product.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\Core\Include\cmsis_iccarm.h \
+  D:\Softwares\arm\inc\c\iccarm_builtin.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include\rtx_os.h \
+  D:\Softwares\arm\inc\c\stddef.h D:\Softwares\arm\inc\c\ysizet.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\tarefas\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h

@@ -1,0 +1,11 @@
+driverleds.pbi: \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\drivers\driverleds.c \
+  D:\Softwares\arm\inc\c\stdbool.h D:\Softwares\arm\inc\c\stdint.h \
+  D:\Softwares\arm\inc\c\ycheck.h D:\Softwares\arm\inc\c\yvals.h \
+  D:\Softwares\arm\inc\c\DLib_Defaults.h \
+  D:\\Softwares\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\Softwares\arm\inc\c\DLib_Product.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\inc/hw_memmap.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib/sysctl.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\..\..\TivaWare_C_Series-2.1.4.178\driverlib/gpio.h \
+  D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\drivers/driverleds.h
