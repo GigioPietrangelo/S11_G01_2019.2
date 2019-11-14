@@ -1,27 +1,36 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  14/Nov/2019  17:26:42
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  14/Nov/2019  18:42:45
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Exe\blinky.out
+#        D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Exe\blinky.out
 #    Map file     =
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\List\blinky.map
+#        D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\List\blinky.map
 #    Command line =
-#        -f C:\Users\Giovanni\AppData\Local\Temp\EW16D4.tmp
-#        (D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\blinky.o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\driverleds.o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\RTX_Config.o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\rtx_lib.o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\startup_TM4C1294.o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj\system_TM4C1294_TW.o
-#        --no_out_extension -o
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Exe\blinky.out
-#        --map
-#        D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\List\blinky.map
-#        --config
+#        -f C:\Users\Giovanni\AppData\Local\Temp\EWB6AA.tmp
+#        ("D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\blinky.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\driverleds.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\RTX_Config.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\rtx_lib.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\startup_TM4C1294.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\system_TM4C1294_TW.o"
+#        --no_out_extension -o "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Exe\blinky.out" --map
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\List\blinky.map" --config
 #        D:\Softwares\arm\config\linker\TexasInstruments\TM4C1294NC.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
@@ -246,7 +255,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj: [1]
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\blinky\ewarm\Obj: [1]
     RTX_Config.o                  4
     blinky.o                    444       12       28
     driverleds.o                332
@@ -563,7 +572,7 @@ tid_phaseC              0x2000'1f24     0x4  Data  Gb  blinky.o [1]
 tid_phaseD              0x2000'1f28     0x4  Data  Gb  blinky.o [1]
 
 
-[1] = D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\blinky\ewarm\Obj
+[1] = D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\blinky\ewarm\Obj
 [2] = RTX_CM.a
 [3] = dl7M_tln.a
 [4] = driverlib.a

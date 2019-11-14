@@ -1,10 +1,20 @@
-tarefas.pbi: \
-  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\src\tarefas.c \
-  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\src/system_tm4c1294.h \
-  D:\Softwares\arm\inc\c\stdint.h D:\Softwares\arm\inc\c\ycheck.h \
-  D:\Softwares\arm\inc\c\yvals.h D:\Softwares\arm\inc\c\DLib_Defaults.h \
-  D:\\Softwares\\arm\\inc\\c\\DLib_Config_Normal.h \
-  D:\Softwares\arm\inc\c\DLib_Product.h \
-  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\drivers\driverleds.h \
+tarefas.pbi: D:\Softwares\arm\inc\c\ycheck.h \
+  D:\Softwares\arm\inc\c\stddef.h \
   D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include\cmsis_os2.h \
-  D:\Softwares\arm\inc\c\stddef.h D:\Softwares\arm\inc\c\ysizet.h
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\drivers\driverleds.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\src\system_tm4c1294.h \
+  D:\Softwares\arm\inc\c\stdarg.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\utils\uartstdio.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\driverlib\pin_map.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\driverlib\systick.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\driverlib\uart.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h \
+  D:\Softwares\arm\inc\c\DLib_float_setup.h \
+  D:\Softwares\arm\inc\c\math.h D:\Softwares\arm\inc\c\ysizet.h \
+  D:\Softwares\arm\inc\c\stdio.h D:\Softwares\arm\inc\c\stdbool.h \
+  D:\Softwares\arm\inc\c\DLib_Product.h \
+  D:\Softwares\arm\inc\c\DLib_Defaults.h D:\Softwares\arm\inc\c\yvals.h \
+  D:\Softwares\arm\inc\c\stdint.h \
+  D:\Usuario\Documents\GitHub\S11_G01_2019.2\ (Giovanni)\Projects\s11_g01_lab3\src\tarefas.c
