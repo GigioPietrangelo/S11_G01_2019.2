@@ -1,24 +1,24 @@
-"D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\src\tarefas.c"
+"D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\src\tarefas.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\ewarm\Obj\tarefas.pbi.dep
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\ewarm\Obj\tarefas.pbi.dep
 -o
 tarefas.pbi
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\src
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\src
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\..\drivers
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\..\drivers
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\..\..\TivaWare_C_Series-2.1.4.178
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\Core\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\Core\Include
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\RTOS2\Include
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include
 -I
 D:\Softwares\arm\CMSIS\Core\Include
 -I
@@ -28,15 +28,15 @@ D:\Softwares\arm\inc
 -I
 D:\Softwares\arm\inc\c
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\drivers
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\drivers
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\TivaWare_C_Series-2.1.4.178
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\TivaWare_C_Series-2.1.4.178
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\CMSIS-5.6.0\CMSIS\Core\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\CMSIS-5.6.0\CMSIS\Core\Include
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\CMSIS-5.6.0\CMSIS\RTOS2\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\CMSIS-5.6.0\CMSIS\RTOS2\Include
 -I
-D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Include
 -I
 D:\Softwares\arm\CMSIS\Core\Include
 -I

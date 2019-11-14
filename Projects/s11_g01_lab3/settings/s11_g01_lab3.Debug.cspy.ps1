@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Softwares\common\bin\cspybat" -f "D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.general.xcl" --backend -f "D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.driver.xcl" 
+& "D:\Softwares\common\bin\cspybat" -f "D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.general.xcl" --backend -f "D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Softwares\common\bin\cspybat" -f "D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Usuario\Downloads\EK-TM4C1294_RTOS_IAR8\EK-TM4C1294_RTOS_IAR8\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.driver.xcl" 
+& "D:\Softwares\common\bin\cspybat" -f "D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\settings\s11_g01_lab3.Debug.driver.xcl" 
 }

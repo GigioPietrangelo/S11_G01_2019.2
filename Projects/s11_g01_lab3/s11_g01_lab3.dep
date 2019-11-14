@@ -5,66 +5,41 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\..\drivers\driverleds.c</file>
-            <file>$PROJ_DIR$\src\RTX_Config.c</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</file>
-            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a</file>
-            <file>$PROJ_DIR$\ewarm\Obj\tarefas.xcl</file>
-            <file>$PROJ_DIR$\ewarm\Obj\rtx_lib.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
-            <file>$PROJ_DIR$\ewarm\List\tarefas.map</file>
-            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o</file>
             <file>$PROJ_DIR$\src\rtx_lib.c</file>
-            <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
-            <file>$PROJ_DIR$\src\tarefas.c</file>
-            <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$PROJ_DIR$\ewarm\Obj\system_TM4C1294_TW.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.xcl</file>
-            <file>$PROJ_DIR$\ewarm\Obj\system_TM4C1294_TW.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.o</file>
+            <file>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a</file>
+            <file>$PROJ_DIR$\src\tarefas.c</file>
             <file>$PROJ_DIR$\ewarm\Obj\rtx_lib.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\driverleds.o</file>
-            <file>$PROJ_DIR$\ewarm\Obj\tarefas.o</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\src\startup_TM4C1294.s</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tarefas.xcl</file>
+            <file>$PROJ_DIR$\ewarm\Obj\system_TM4C1294_TW.o</file>
+            <file>$PROJ_DIR$\src\system_TM4C1294_TW.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\ewarm\Obj\driverleds.xcl</file>
-            <file>$PROJ_DIR$\ewarm\Exe\tarefas.out</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.xcl</file>
+            <file>$PROJ_DIR$\ewarm\Obj\driverleds.o</file>
+            <file>$PROJ_DIR$\..\drivers\driverleds.c</file>
             <file>$PROJ_DIR$\ewarm\Exe\s11_g01_lab3.bin</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tarefas.o</file>
+            <file>$PROJ_DIR$\src\RTX_Config.c</file>
+            <file>$PROJ_DIR$\ewarm\Exe\tarefas.out</file>
+            <file>$PROJ_DIR$\ewarm\Obj\startup_TM4C1294.o</file>
+            <file>$PROJ_DIR$\ewarm\List\tarefas.map</file>
+            <file>$PROJ_DIR$\ewarm\Obj\RTX_Config.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\rtx_lib.xcl</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
+            <file>$PROJ_DIR$\ewarm\Obj\s11_g01_lab3.pbd</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 9 25</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\driverleds.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 21</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\RTX_Config.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 17</file>
+                    <file> 23 21</file>
                 </tool>
             </outputs>
         </file>
@@ -73,20 +48,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\src\startup_TM4C1294.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 10</file>
+                    <file> 25</file>
                 </tool>
             </outputs>
         </file>
@@ -95,11 +61,20 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 22</file>
+                    <file> 19</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 5</file>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\startup_TM4C1294.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 22</file>
                 </tool>
             </outputs>
         </file>
@@ -108,7 +83,33 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 18</file>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\driverleds.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\RTX_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -120,18 +121,18 @@
             <name>$PROJ_DIR$\ewarm\Exe\tarefas.out</name>
             <outputs>
                 <tool>
-                    <name>OBJCOPY</name>
-                    <file> 26</file>
+                    <name>ILINK</name>
+                    <file> 23</file>
                 </tool>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 9</file>
+                    <name>OBJCOPY</name>
+                    <file> 18</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 21 3 4 19 20 10 18 22 16 2 7 23</file>
+                    <file> 26 16 14 4 24 6 22 10 19 12 2 1 7</file>
                 </tool>
             </inputs>
         </file>
