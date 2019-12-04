@@ -1,14 +1,14 @@
-"D:\Softwares\arm\bin\armproc.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll" 
 
-"D:\Softwares\arm\bin\armlmiftdi.dll" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armlmiftdi.dll" 
 
-"D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\s11_g01_lab3\ewarm\Exe\tarefas.out" 
+"C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\s11_g01_lab3\ewarm\Exe\tarefas.out" 
 
---plugin="D:\Softwares\arm\bin\armbat.dll" 
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
 
---device_macro="D:\Softwares\arm\config\debugger\TexasInstruments\TM4C129.dmac" 
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\TexasInstruments\TM4C129.dmac" 
 
---flash_loader="D:\Softwares\arm\config\flashloader\TexasInstruments\FlashTC4_NC.board" 
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\TexasInstruments\FlashTC4_NC.board" 
 
 
 

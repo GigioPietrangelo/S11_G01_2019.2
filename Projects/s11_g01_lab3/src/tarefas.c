@@ -20,17 +20,42 @@ Semestre:
 #include <stdio.h>
 #include <math.h>
 // Driverlib
-#include "inc/hw_memmap.h"
 #include "driverlib/gpio.h"
 #include "driverlib/uart.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/systick.h"
 #include "driverlib/pin_map.h"
+// Utils
 #include "utils/uartstdio.h"
- 
+// Others
+#include "inc/hw_memmap.h"
 #include "system_tm4c1294.h" // CMSIS-Core
 #include "driverleds.h" // device drivers
 #include "cmsis_os2.h" // CMSIS-RTOS
+
+extern void UARTStdioIntHandler(void);
+
+void UARTInit(void){
+  // Enable the GPIO Peripheral used by the UART.
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOA);
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOA));
+
+  // Enable UART0
+  SysCtlPeripheralEnable(SYSCTL_PERIPH_UART0);
+  while(!SysCtlPeripheralReady(SYSCTL_PERIPH_UART0));
+
+  // Configure GPIO Pins for UART mode.
+  GPIOPinConfigure(GPIO_PA0_U0RX);
+  GPIOPinConfigure(GPIO_PA1_U0TX);
+  GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
+
+  // Initialize the UART for console I/O.
+  UARTStdioConfig(0, 9600, SystemCoreClock);
+} // UARTInit
+
+void UART0_Handler(void){
+  UARTStdioIntHandler();
+} // UART0_Handler
 
 osThreadId_t thread1_id, thread2_id;
 
@@ -59,7 +84,7 @@ void thread2(void *arg){
 } // thread2
 
 void main(void){
-  //UARTInit();
+  UARTInit();
   
   LEDInit(LED2 | LED1);
 

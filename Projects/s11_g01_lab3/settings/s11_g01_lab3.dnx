@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>1037759252</Checksum>
+        <Checksum>958061757</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -74,7 +74,7 @@
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
     <LMIFTDIDriver>
-        <LMIFTDIserialNo>0F009074</LMIFTDIserialNo>
+        <LMIFTDIserialNo>0F00B433</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <TermIOLog>

@@ -2,9 +2,9 @@
 
 
 #Abbreviations
-cc = D$:\Softwares\common\bin\SourceIndexer.exe
-ll = D$:\Softwares\common\bin\PbdLink.exe
-bd = D$:\Softwares\common\bin\makeBrowseData.exe
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
 
 
 
@@ -25,9 +25,10 @@ build RTX_Config.pbi : index RTX_Config.xcl
 build rtx_lib.pbi : index rtx_lib.xcl
 build system_TM4C1294_TW.pbi : index system_TM4C1294_TW.xcl
 build tarefas.pbi : index tarefas.xcl
+build uartstdio.pbi : index uartstdio.xcl
 build s11_g01_lab3_part0.pbi : link driverleds.pbi RTX_Config.pbi
 build s11_g01_lab3_part1.pbi : link rtx_lib.pbi system_TM4C1294_TW.pbi
-build s11_g01_lab3_part2.pbi : link tarefas.pbi
+build s11_g01_lab3_part2.pbi : link tarefas.pbi uartstdio.pbi
 build s11_g01_lab3.pbd : link s11_g01_lab3_part0.pbi s11_g01_lab3_part1.pbi s11_g01_lab3_part2.pbi
 build s11_g01_lab3.pbw : browsedata s11_g01_lab3.pbd
 
