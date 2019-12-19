@@ -26627,13 +26627,41 @@
     "scope": null
   },
   {
+    "ID": "c:@osMutexId",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "osMutexId",
+    "location": {
+      "column": "13",
+      "line": "5",
+      "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
+    },
+    "name": "osMutexId",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Thread_Mutex_attr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Thread_Mutex_attr",
+    "location": {
+      "column": "21",
+      "line": "6",
+      "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
+    },
+    "name": "Thread_Mutex_attr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@threadElevador",
     "What": "Function",
     "defdec": "Def",
     "display": "void threadElevador(void *)",
     "location": {
       "column": "6",
-      "line": "5",
+      "line": "13",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
     },
     "name": "threadElevador",
@@ -26641,13 +26669,13 @@
     "scope": null
   },
   {
-    "ID": "c:elevador.c@98@F@threadElevador@nElevador",
+    "ID": "c:elevador.c@254@F@threadElevador@nElevador",
     "What": "Variable",
     "defdec": "Def",
     "display": "nElevador",
     "location": {
       "column": "7",
-      "line": "6",
+      "line": "14",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
     },
     "name": "nElevador",
@@ -26655,13 +26683,13 @@
     "scope": null
   },
   {
-    "ID": "c:elevador.c@129@F@threadElevador@outputString",
+    "ID": "c:elevador.c@285@F@threadElevador@outputString",
     "What": "Variable",
     "defdec": "Def",
     "display": "outputString",
     "location": {
       "column": "8",
-      "line": "7",
+      "line": "15",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
     },
     "name": "outputString",
@@ -26669,13 +26697,13 @@
     "scope": null
   },
   {
-    "ID": "c:elevador.c@155@F@threadElevador@message",
+    "ID": "c:elevador.c@311@F@threadElevador@message",
     "What": "Variable",
     "defdec": "Def",
     "display": "message",
     "location": {
       "column": "8",
-      "line": "8",
+      "line": "16",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
     },
     "name": "message",
@@ -26683,13 +26711,13 @@
     "scope": null
   },
   {
-    "ID": "c:elevador.c@175@F@threadElevador@status",
+    "ID": "c:elevador.c@331@F@threadElevador@status",
     "What": "Variable",
     "defdec": "Def",
     "display": "status",
     "location": {
       "column": "14",
-      "line": "9",
+      "line": "17",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\elevador.c"
     },
     "name": "status",
@@ -78020,13 +78048,13 @@
     "scope": null
   },
   {
-    "ID": "c:string_utils.c@72@F@sendString@i",
+    "ID": "c:string_utils.c@130@F@sendString@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
-      "line": "5",
+      "line": "6",
       "path": "D:\\Usuario\\Documents\\GitHub\\S11_G01_2019.2 (Giovanni)\\Projects\\s11_g01_lab3\\src\\string_utils.c"
     },
     "name": "i",

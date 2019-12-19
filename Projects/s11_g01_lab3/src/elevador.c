@@ -2,11 +2,22 @@
 
 osThreadId_t threadElevadorIds[3];
 
+osMutexId_t osMutexId;
+const osMutexAttr_t Thread_Mutex_attr = {
+  "messageControlMutex",
+  osMutexRecursive | osMutexPrioInherit,
+  NULL,
+  0U
+};
+
 void threadElevador(void *arg){
   int nElevador = ((int)arg);
   char outputString[10];
   char message[5];
   osStatus_t status;
+  
+  osMutexId = osMutexNew(&Thread_Mutex_attr); 
+  
   while(true){
     status = osMessageQueueGet(messageQueueElevadores[nElevador], &message, NULL, NULL);
     if(status == osOK){
@@ -65,7 +76,9 @@ void threadElevador(void *arg){
         break;
       }
     
+      osMutexAcquire(osMutexId, osWaitForever);
       sendString(outputString);
+      osMutexRelease(osMutexId);
     }
   }
 }
