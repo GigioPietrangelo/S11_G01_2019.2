@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <settings>
     <DebugChecksum>
-        <Checksum>958061757</Checksum>
+        <Checksum>544533078</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -99,7 +99,11 @@
         <Count>0</Count>
     </Breakpoints>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\Giovanni\Desktop\Embarcados\S11_G01_2019.2-master\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\main.c" "D:\Usuario\Documents\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\main.c"</A0>
+        <A1>_ "C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\TivaWare_C_Series-2.1.4.178\driverlib\gpio.c" "D:\Usuario\Documents\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\TivaWare_C_Series-2.1.4.178\driverlib\gpio.c"</A1>
+        <A2>_ "D:\Usuario\Documents\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\main.c" "C:\Users\rodri\Desktop\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\main.c"</A2>
+        <A3>_ "D:\Usuario\Documents\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\startup_TM4C1294.s" "C:\Users\rodri\Desktop\S11_G01_2019.2-master_oficial\S11_G01_2019.2-master\Projects\s11_g01_lab3\src\startup_TM4C1294.s"</A3>
+        <Count>4</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>

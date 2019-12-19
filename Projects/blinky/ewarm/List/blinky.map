@@ -1,27 +1,37 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  03/Dec/2019  20:38:55
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  19/Dec/2019  14:46:42
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Exe\blinky.out
+#        D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Exe\blinky.out
 #    Map file     =
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\List\blinky.map
+#        D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\List\blinky.map
 #    Command line =
-#        -f C:\Users\Giovanni\AppData\Local\Temp\EW347C.tmp
-#        (C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\blinky.o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\driverleds.o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\RTX_Config.o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\rtx_lib.o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\startup_TM4C1294.o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj\system_TM4C1294_TW.o
-#        --no_out_extension -o
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Exe\blinky.out
-#        --map
-#        C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\List\blinky.map
-#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        -f C:\Users\Giovanni\AppData\Local\Temp\EW16A2.tmp
+#        ("D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\blinky.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\driverleds.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\RTX_Config.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\rtx_lib.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\startup_TM4C1294.o"
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Obj\system_TM4C1294_TW.o"
+#        --no_out_extension -o "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\Exe\blinky.out" --map
+#        "D:\Usuario\Documents\GitHub\S11_G01_2019.2
+#        (Giovanni)\Projects\blinky\ewarm\List\blinky.map" --config "D:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
 #        8.3\arm\config\linker\TexasInstruments\TM4C1294NC.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -246,7 +256,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj: [1]
+D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\blinky\ewarm\Obj: [1]
     RTX_Config.o                  4
     blinky.o                    444       12       28
     driverleds.o                332
@@ -563,7 +573,7 @@ tid_phaseC              0x2000'1f24     0x4  Data  Gb  blinky.o [1]
 tid_phaseD              0x2000'1f28     0x4  Data  Gb  blinky.o [1]
 
 
-[1] = C:\Users\Giovanni\Documents\eclipse-workspace\S11_G01_2019.2_Giovanni\Projects\blinky\ewarm\Obj
+[1] = D:\Usuario\Documents\GitHub\S11_G01_2019.2 (Giovanni)\Projects\blinky\ewarm\Obj
 [2] = RTX_CM.a
 [3] = dl7M_tln.a
 [4] = driverlib.a

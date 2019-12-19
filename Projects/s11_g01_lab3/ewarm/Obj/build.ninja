@@ -2,9 +2,9 @@
 
 
 #Abbreviations
-cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
-ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
-bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+cc = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = D$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
 
 
 
@@ -20,15 +20,18 @@ rule browsedata
 
 
 #Build steps
+build comandos.pbi : index comandos.xcl
 build driverleds.pbi : index driverleds.xcl
+build elevador.pbi : index elevador.xcl
+build main.pbi : index main.xcl
 build RTX_Config.pbi : index RTX_Config.xcl
 build rtx_lib.pbi : index rtx_lib.xcl
+build string_utils.pbi : index string_utils.xcl
 build system_TM4C1294_TW.pbi : index system_TM4C1294_TW.xcl
-build tarefas.pbi : index tarefas.xcl
 build uartstdio.pbi : index uartstdio.xcl
-build s11_g01_lab3_part0.pbi : link driverleds.pbi RTX_Config.pbi
-build s11_g01_lab3_part1.pbi : link rtx_lib.pbi system_TM4C1294_TW.pbi
-build s11_g01_lab3_part2.pbi : link tarefas.pbi uartstdio.pbi
+build s11_g01_lab3_part0.pbi : link comandos.pbi driverleds.pbi elevador.pbi
+build s11_g01_lab3_part1.pbi : link main.pbi RTX_Config.pbi rtx_lib.pbi
+build s11_g01_lab3_part2.pbi : link string_utils.pbi system_TM4C1294_TW.pbi uartstdio.pbi
 build s11_g01_lab3.pbd : link s11_g01_lab3_part0.pbi s11_g01_lab3_part1.pbi s11_g01_lab3_part2.pbi
 build s11_g01_lab3.pbw : browsedata s11_g01_lab3.pbd
 

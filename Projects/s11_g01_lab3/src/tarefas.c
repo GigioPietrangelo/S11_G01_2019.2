@@ -50,14 +50,15 @@ void UARTInit(void){
   GPIOPinTypeUART(GPIO_PORTA_BASE, GPIO_PIN_0 | GPIO_PIN_1);
 
   // Initialize the UART for console I/O.
-  UARTStdioConfig(0, 9600, SystemCoreClock);
+  UARTStdioConfig(0, 115200, SystemCoreClock);
+  
 } // UARTInit
 
 void UART0_Handler(void){
   UARTStdioIntHandler();
 } // UART0_Handler
 
-osThreadId_t thread1_id, thread2_id;
+/*osThreadId_t thread1_id, thread2_id;
 
 void thread1(void *arg){
   uint8_t state = 0;
@@ -72,29 +73,47 @@ void thread1(void *arg){
 void thread2(void *arg){
   uint8_t state = 0;
   uint32_t tick;
-  
+  char var[10];
+  char var1[5] = "dLc\r";
   while(1){
     tick = osKernelGetTickCount();
     
     state ^= LED2;
     LEDWrite(LED2, state);
-    
+    UARTgets(var, 10);
+    UARTwrite(var1, 10);
+    printf("O nome armazenado foi: %s", var);
     osDelayUntil(tick + 100);
   } // while
 } // thread2
+*/
+
+void app_main (void *argument){
+
+  for(uint8_t i = 0; i < 3; i++){
+    threadElevatorIds[i] = osThreadNew(threadElevator, (void*) i, NULL);
+  }
+  
+  while(true){
+    osDelay(osWaitForever);
+  }
+}
 
 void main(void){
   UARTInit();
   
-  LEDInit(LED2 | LED1);
-
+  //LEDInit(LED2 | LED1);
+  SystemCoreClockUpdate();
   osKernelInitialize();
 
-  thread1_id = osThreadNew(thread1, NULL, NULL);
-  thread2_id = osThreadNew(thread2, NULL, NULL);
-
+  //thread1_id = osThreadNew(thread1, NULL, NULL);
+  //thread2_id = osThreadNew(thread2, NULL, NULL);
+	
   if(osKernelGetState() == osKernelReady)
     osKernelStart();
-
-  while(1);
+    
+  while(1){
+    
+  }
+    
 } // main

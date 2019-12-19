@@ -1058,10 +1058,25 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\src\comandos.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\comandos.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\..\drivers\driverleds.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\elevador.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\elevador.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\main.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\..\..\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a</name>
@@ -1076,10 +1091,13 @@
         <name>$PROJ_DIR$\src\startup_TM4C1294.s</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\src\system_TM4C1294_TW.c</name>
+        <name>$PROJ_DIR$\src\string_utils.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\src\tarefas.c</name>
+        <name>$PROJ_DIR$\src\string_utils.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\src\system_TM4C1294_TW.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\utils\uartstdio.c</name>
